@@ -48,7 +48,6 @@ function App() {
   const handleOnCheck = (e) => {
     const { checked, value } = e.target;
 
-    console.log(checked, value);
 
     if (value === "entry" || value === "bad") {
       let toDeleteIds = [];

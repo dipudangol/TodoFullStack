@@ -15,7 +15,6 @@ export const AddTaskForm = ({ addTask }) => {
 
   const handleOnChange = (e) => {
     const { name, value } = e.target;
-    console.log(name, value);
     setForm({
       ...form,
       [name]: value,
